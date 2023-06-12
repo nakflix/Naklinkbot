@@ -34,6 +34,9 @@ DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001892458448"))
 
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "netfliz2bot")
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "d188bce9-be3d-42f5-8b14-222d5cfb90d1")
+
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
