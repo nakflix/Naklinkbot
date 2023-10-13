@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5928242691:AAG20OcsZ1ZHcr8ZRz5fd8e8NND2jppeNIs")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5928242691:AAESZA8sr-hgHe-VroOgzhmHW2Lck75ROXU")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "14298205"))
@@ -32,10 +32,10 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Alphanakflix:alpha3720@cl
 DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001892458448"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001983449189"))
 
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "netfliz2bot")
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "d188bce9-be3d-42f5-8b14-222d5cfb90d1")
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "")
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
